@@ -1,0 +1,16 @@
+{
+  "name": "chrome-object-bug",
+  "version": "1.0.0",
+  "description": "Displays issue #465932",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adamhooper/chrome-object-bug.git"
+  },
+  "author": "Adam Hooper <adam@adamhooper.com>",
+  "license": "Public Domain",
+  "homepage": "https://github.com/adamhooper/chrome-object-bug",
+  "dependencies": {
+    "express": "^4.12.2"
+  }
+}

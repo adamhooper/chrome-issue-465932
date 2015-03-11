@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Chrome issue #465932</title>
+  </head>
+  <body>
+    <p>
+      This displays Chrome
+      <a href="https://code.google.com/p/chromium/issues/detail?id=465932">issue
+      #465932</a>.
+    </p>
+    <p>
+      Here is an &lt;object&gt; tag. Chrome should send a cookie when it
+      requests it, because this page has a cookie set. If the object says
+      the cookie is set, your browser is not exhibiting this bug:
+    </p>
+    <object data="/check-cookie.pdf" type="application/pdf" width="300px" height="300px">
+      <p>Whoops, a different problem: you need a PDF viewer.</p>
+    </object>
+  </body>
+</html>
